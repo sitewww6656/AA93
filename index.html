@@ -1,1 +1,171 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0c2854">
+<title>海外先锋｜十周年主题版本</title>
+<style>
+:root{--navy:#09264f;--blue:#125bb5;--sky:#eaf6ff;--gold:#ffd989;--red:#b92e25;--ink:#153b68;--paper:#fffdf7}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:linear-gradient(180deg,#dff3ff,#f9fcff 38%,#e8f6ff);line-height:1.6}
+a{color:inherit}
+.page{width:min(100%,760px);margin:auto;padding:0 12px 30px}
+.hero{margin:12px auto 14px;border-radius:20px;overflow:hidden;box-shadow:0 10px 30px #173b6826;background:#d9edff}
+.hero img{display:block;width:100%;height:auto}
+.panel{margin:14px 0;padding:18px 16px;border:1px solid #f0d18b;border-radius:18px;background:linear-gradient(145deg,#fffef9,#fff5dc);box-shadow:0 8px 22px #12345a12}
+.section-title{display:flex;align-items:center;justify-content:center;gap:10px;margin:0 0 14px;color:#fff;background:linear-gradient(100deg,#0a3974,#1476c7,#0a3974);border:1px solid #f3d58f;border-radius:999px;padding:9px 12px;font-size:clamp(20px,5vw,27px);font-weight:900;letter-spacing:1px;text-align:center;text-shadow:0 2px 2px #001b45}
+.sub{font-size:13px;color:#6a829c;text-align:center;margin:-6px 0 14px}
+.codebox{background:linear-gradient(135deg,#fff8e8,#fff);border:2px solid #e6bd69;border-radius:16px;padding:16px;text-align:center}
+.tag{display:inline-block;background:#b72c26;color:#fff4cf;border-radius:999px;padding:5px 14px;font-weight:800;font-size:14px}
+.code{font-size:clamp(38px,10vw,62px);font-weight:1000;line-height:1.2;letter-spacing:5px;color:#bd201c;text-shadow:0 2px #ffdf8b;margin:7px 0}
+.warn{font-weight:800;color:#a52a22;font-size:14px}
+.server{margin-top:12px;padding:14px;border-radius:14px;background:linear-gradient(135deg,#0b2f67,#126dc0);color:white;text-align:center}
+.server .big{font-size:clamp(22px,5vw,32px);font-weight:900}
+.server .date{color:#ffe7a8;font-weight:800;font-size:17px}
+.links{display:grid;grid-template-columns:1fr;gap:10px}
+.linkcard{border:1px solid #bfdcff;background:#f6fbff;border-radius:13px;padding:12px}
+.linkcard strong{display:block;margin-bottom:5px}
+.url{font-size:13px;overflow-wrap:anywhere;color:#1259a7}
+.actions{display:flex;gap:8px;margin-top:9px}
+.btn{appearance:none;border:0;border-radius:999px;background:linear-gradient(100deg,#ff9b22,#ff6a13);color:#fff;font-weight:850;padding:11px 15px;text-align:center;text-decoration:none;cursor:pointer;display:inline-flex;justify-content:center;align-items:center;min-height:42px;flex:1;box-shadow:0 4px 10px #e76a1933}
+.btn.blue{background:linear-gradient(100deg,#1674d4,#124d9d)}
+.btn.ghost{background:#e8f3ff;color:#15579a;border:1px solid #b8d9ff;box-shadow:none}
+.tip{font-size:12px;color:#607b98;margin:10px 0 0;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.reward{min-width:0;border:1px solid #f0d9a7;border-radius:12px;background:#fff;padding:12px 8px;text-align:center;box-shadow:0 3px 8px #7a5a1710}
+.reward .emoji{font-size:26px;display:block;margin-bottom:4px}
+.reward b{display:block;font-size:14px;line-height:1.45;color:#174c87}
+.reward small{display:block;font-size:12px;color:#75879a;margin-top:3px}
+.feature-list{display:grid;grid-template-columns:1fr;gap:10px}
+.feature{display:grid;grid-template-columns:92px minmax(0,1fr);gap:12px;align-items:center;background:#f8fbff;border:1px solid #c9e1fb;border-radius:14px;padding:10px}
+.feature .pic{height:78px;border-radius:10px;background:linear-gradient(135deg,#0a326c,#1597dd);display:flex;align-items:center;justify-content:center;font-size:34px;color:#fff}
+.feature h3{margin:0 0 3px;color:#0e4d91;font-size:17px}
+.feature p{margin:0;color:#5c7693;font-size:13px}
+.pills{display:flex;flex-wrap:wrap;gap:7px;justify-content:center}
+.pill{background:#eaf5ff;border:1px solid #c9e1fb;color:#215b92;padding:6px 10px;border-radius:999px;font-size:12px}
+.notice{background:#fff5df;border:1px dashed #e4bd6b;border-radius:12px;padding:12px;color:#75572b;font-size:13px}
+.footer{text-align:center;padding:20px 10px;color:#eaf5ff;background:linear-gradient(130deg,#09264f,#1268b4);border-radius:18px;margin-top:16px}
+.footer strong{display:block;font-size:20px;color:#ffe2a0}
+.footer p{font-size:12px;opacity:.9;margin:8px 0 0}
+@media(min-width:560px){.links{grid-template-columns:1fr 1fr}.panel{padding:22px}.reward{padding:15px 10px}.reward b{font-size:15px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<main class="page">
+  <div class="hero">
+    <img alt="奇幻仙侠主题宣传图" src="wd1.jpg"  </div>
 
+  <section class="panel" id="register">
+    <h2 class="section-title">专属注册信息</h2>
+    <div class="codebox">
+      <span class="tag">防官版本 · 海外先锋</span>
+      <div class="code">AA93</div>
+      <div class="warn">注册码请使用大写字母填写，填错可能无法获得售后支持</div>
+      <button class="btn" style="margin-top:12px;width:100%" onclick="copyText('AA93','注册码已复制')">复制注册码 AA93</button>
+    </div>
+    <div class="server">
+      <div class="big">🔥 火爆新区 · 首服首区 🔥</div>
+      <div class="date">10月13日 下午13:00</div>
+      <div>新区名称：《重回中洲》</div>
+    </div>
+  </section>
+
+  <section class="panel" id="download">
+    <h2 class="section-title">双端下载链接</h2>
+    <p class="sub">复制链接后粘贴到浏览器打开，手机与电脑均可体验</p>
+    <div class="links">
+      <div class="linkcard">
+        <strong>主下载线路</strong>
+        <div class="url">https://xfqg.yijin.me/xfqg.html</div>
+        <div class="actions">
+          <button class="btn blue" onclick="copyText('https://xfqg.yijin.me/xfqg.html','主线路链接已复制')">复制主链接</button>
+          <a class="btn ghost" href="https://xfqg.yijin.me/xfqg.html" target="_blank" rel="noopener">打开</a>
+        </div>
+      </div>
+      <div class="linkcard">
+        <strong>备用下载线路</strong>
+        <div class="url">https://xfqg.ggw.wang/xfqg.html</div>
+        <div class="actions">
+          <button class="btn blue" onclick="copyText('https://xfqg.ggw.wang/xfqg.html','备用线路链接已复制')">复制备用</button>
+          <a class="btn ghost" href="https://xfqg.ggw.wang/xfqg.html" target="_blank" rel="noopener">打开</a>
+        </div>
+      </div>
+    </div>
+    <p class="tip">如果页面无法直接打开，请长按链接复制，再粘贴到浏览器地址栏。</p>
+  </section>
+
+  <section class="panel" id="rewards">
+    <h2 class="section-title">上线福利 · 登录即送</h2>
+    <div class="grid">
+      <div class="reward"><span class="emoji">🪙</span><b>1000万银元宝</b><small>登录福利</small></div>
+      <div class="reward"><span class="emoji">🛡️</span><b>整套改7继承套装</b><small>成长装备</small></div>
+      <div class="reward"><span class="emoji">💎</span><b>整套80级相五首饰</b><small>属性加成</small></div>
+      <div class="reward"><span class="emoji">🐷</span><b>变异招财猪</b><small>特色宠物</small></div>
+      <div class="reward"><span class="emoji">🦊</span><b>变异乖乖狗</b><small>特色宠物</small></div>
+      <div class="reward"><span class="emoji">🎁</span><b>79级经验礼包</b><small>升级助力</small></div>
+      <div class="reward"><span class="emoji">🔮</span><b>随机1级自选法宝 ×3</b><small>自由选择</small></div>
+      <div class="reward"><span class="emoji">🐼</span><b>八速太极熊</b><small>特色坐骑</small></div>
+      <div class="reward"><span class="emoji">🪽</span><b>十周年飞行器</b><small>炫酷外观</small></div>
+      <div class="reward"><span class="emoji">👘</span><b>十周年时装</b><small>经典造型</small></div>
+      <div class="reward"><span class="emoji">✨</span><b>20亿潜能礼包</b><small>角色成长</small></div>
+      <div class="reward"><span class="emoji">💰</span><b>10亿金币礼包</b><small>海量金币</small></div>
+    </div>
+    <div class="notice" style="margin-top:12px"><b>频道福利：</b>在世界频道喊话「海外666」，可获得修行礼包 ×1。</div>
+    <div class="grid" style="margin-top:10px">
+      <div class="reward"><span class="emoji">🗺️</span><b>专属兑换码 VIP666</b><small>兑换500张特级藏宝图</small><button class="btn ghost" style="width:100%;margin-top:8px" onclick="copyText('VIP666','VIP666 已复制')">复制兑换码</button></div>
+      <div class="reward"><span class="emoji">🗝️</span><b>专属兑换码 VIP777</b><small>兑换100水晶钥匙 + 100藏宝箱</small><button class="btn ghost" style="width:100%;margin-top:8px" onclick="copyText('VIP777','VIP777 已复制')">复制兑换码</button></div>
+    </div>
+  </section>
+
+  <section class="panel" id="features">
+    <h2 class="section-title">特色玩法</h2>
+    <div class="feature-list">
+      <article class="feature"><div class="pic">🐉</div><div><h3>特色世界 BOSS</h3><p>十八层地狱、寒冰烛龙、囚海 BOSS、九幽 BOSS 等特色挑战。</p></div></article>
+      <article class="feature"><div class="pic">🔥</div><div><h3>多样 BOSS 挑战</h3><p>浪浪山 BOSS、年兽 BOSS、镇守五山 BOSS，探索更多战斗内容。</p></div></article>
+      <article class="feature"><div class="pic">🏯</div><div><h3>经典地图与仙术</h3><p>体验特色地图、御宝仙术、坐骑与飞行器等丰富内容。</p></div></article>
+      <article class="feature"><div class="pic">⚔️</div><div><h3>装备成长与封印</h3><p>包含装备封印系统，可体验法宝、魂器、首饰等相关玩法。</p></div></article>
+      <article class="feature"><div class="pic">🎁</div><div><h3>BOSS 掉落与自由交易</h3><p>挑战获取道具，体验珍宝拍卖与自由交易等内容。</p></div></article>
+      <article class="feature"><div class="pic">🤝</div><div><h3>跨服与组队体验</h3><p>参与跨服玩法、组队挑战，与伙伴一起探索游戏世界。</p></div></article>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2 class="section-title">版本特色</h2>
+    <div class="pills">
+      <span class="pill">十周年主题</span><span class="pill">登录福利</span><span class="pill">特色 BOSS</span>
+      <span class="pill">装备成长</span><span class="pill">坐骑飞行器</span><span class="pill">珍宝拍卖</span>
+      <span class="pill">自由交易</span><span class="pill">手机电脑可玩</span>
+    </div>
+    <div class="notice" style="margin-top:14px"><b>电脑游玩提示：</b>如需在电脑上体验，可按运营方提供的指引安装 MuMu 模拟器；具体兼容情况请以下载页面说明为准。</div>
+    <div class="notice" style="margin-top:10px"><b>攻略提示：</b>攻略与单笔图请查看相关社群的群文件。</div>
+  </section>
+
+  <footer class="footer">
+    <strong>十年情怀 · 再续旅程</strong>
+    <div style="margin-top:10px"><a class="btn" href="#download" style="min-width:190px">立即下载体验 ↓</a></div>
+    <p>本页面为版本宣传信息页，非游戏官方页面；游戏名称、素材及相关权利归各自权利人所有。下载前请自行确认来源与设备安全。</p>
+  </footer>
+</main>
+<script>
+async function copyText(value, message){
+  try{
+    if(navigator.clipboard && window.isSecureContext){
+      await navigator.clipboard.writeText(value);
+    }else{
+      const area=document.createElement('textarea');
+      area.value=value; area.style.position='fixed'; area.style.opacity='0';
+      document.body.appendChild(area); area.select();
+      const ok=document.execCommand('copy'); area.remove();
+      if(!ok) throw new Error('copy failed');
+    }
+    alert(message || '已复制');
+  }catch(e){
+    window.prompt('请手动复制以下内容：', value);
+  }
+}
+</script>
+</body>
+</html>
